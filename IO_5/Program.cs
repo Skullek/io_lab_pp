@@ -27,9 +27,9 @@ namespace IO_5
         static void Main(string[] args)
         {
             String size, threads;
-            Console.WriteLine("===================================\nIle elementow ma byc w tablicy?");
+            Console.WriteLine("====================================\nIle elementow ma byc w tablicy?");
             size = Console.ReadLine();
-            Console.WriteLine("===================================\nIle watkow uzyc?");
+            Console.WriteLine("====================================\nIle watkow uzyc?");
             threads = Console.ReadLine();
             float z = float.Parse(size) / float.Parse(threads);
             int roundedUp = (int)Math.Ceiling(z);
